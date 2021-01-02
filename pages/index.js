@@ -1,6 +1,13 @@
+import Link from "next/link";
+import NavBar from "../components/Navbar";
+
 const Index = () => {
     return (
-        <h1>OUR INDEX PAGE</h1>
+        <div>
+            <NavBar />
+            <h1>OUR INDEX PAGE</h1>
+        </div>
+        
     )
 }
 
