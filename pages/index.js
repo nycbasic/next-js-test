@@ -7,7 +7,7 @@ const Index = ({posts}) => {
             <h1>OUR INDEX PAGE</h1>
             <ul>
                {posts.map(post => {
-                   return <li key={post.id}><Link href={`/post?id=${post.id}`}>{post.title}</Link></li>
+                   return <li key={post.id}><Link href={`/post?id=${post.id}`} as={`/p/${post.id}`}>{post.title}</Link></li>
                 })} 
             </ul>
             
