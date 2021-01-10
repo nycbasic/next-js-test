@@ -5,15 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server1.js",
+    "dev": "nodemon server2.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server1.js"
+    "start": "NODE_ENV=production nodemon server1.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "express": "^4.17.1",
     "next": "^10.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
